@@ -1,5 +1,9 @@
+# Usage:    part 1: python day_1.py input_file
+#           part 2: python day_1.py input_file 3 
+
 from itertools import combinations
 import sys
+
 
 if len(sys.argv) < 2:
     print("Must specify input file")
